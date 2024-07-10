@@ -9,7 +9,7 @@ const prisma = new PrismaClient();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Refer and Earn API');
+  res.send('Good! The server is running! Welcome to the Refer and Earn API');
 });
 
 app.post('/api/referrals', async (req, res) => {
